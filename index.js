@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const message = document.getElementById("message");
 
     button.addEventListener("click", function () {
-        message.innerHTML = "🎉 Button clicked successfully!  wow yeah ";
+
+        message.innerHTML = "🎉 Button clicked successfully!";
+
     });
 
 });
